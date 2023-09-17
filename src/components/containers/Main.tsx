@@ -1,4 +1,4 @@
-import { Box, Container } from "@mui/material";
+import { Box} from "@mui/material";
 import { ReactNode } from "react";
 
 type Props = {
@@ -10,13 +10,13 @@ const Main = ({children}:Props) => {
         <Box    component={'main'} 
                 sx={{
                     backgroundColor:'#f5f5f5',
-                    padding:'86px 20px 20px 20px',
+                    padding:'86px 28px 20px 28px',
                     margin:'0',
                     minHeight: '100vh'
                     }}>
-            <Container>
+
                 {children}
-            </Container>
+
         </Box>
     );
 };
