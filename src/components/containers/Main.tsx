@@ -9,10 +9,10 @@ const Main = ({children}:Props) => {
     return (
         <Box    component={'main'} 
                 sx={{
-                    backgroundColor:'#f5f5f5',
-                    padding:'86px 28px 20px 28px',
+                    //backgroundColor:'#f5f5f5',
+                    padding:'64px 28px 0px 28px',
                     margin:'0',
-                    minHeight: '100vh'
+                    minHeight: '100%'
                     }}>
 
                 {children}

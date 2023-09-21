@@ -26,7 +26,7 @@ const rows = [
 
 export default function PlannedTable() {
   return (
-    <TableContainer component={Paper}>
+    <TableContainer component={Paper} variant='outlined'>
       <Table sx={{ minWidth: 650 }} size="small" aria-label="a dense table">
         <TableHead>
           <TableRow>
